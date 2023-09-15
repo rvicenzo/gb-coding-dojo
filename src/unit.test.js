@@ -1,5 +1,6 @@
-const { sum1 } = require('./index.js')
+const { getPossibilities } = require('./index.js')
 
-test('adds 1 to value', () => {
-    expect(sum1(2)).toBe(3);
-  });
+
+ test('checar se possibilidade existe', () => {
+    expect(getPossibilities('banana')).toBe(false);
+  }); 
