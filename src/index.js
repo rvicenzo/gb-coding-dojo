@@ -1,7 +1,9 @@
-function sum1(number){
-    return number +1
+const play = ['pedra', 'papel', 'tesoura'];
+
+function getPossibilities(possibility){
+    return play.indexOf(possibility);
 }
 
 module.exports ={
-    sum1
+    getPossibilities
 }
